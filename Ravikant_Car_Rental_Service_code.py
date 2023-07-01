@@ -118,12 +118,13 @@ if __name__ == "__main__":
 
     # Car Return
     # booking_number = 1
-    return_time = datetime(2023, 7, 2, 2, 0, 0)
+    return_time = datetime(2023, 7, 3, 12, 0, 0)
     Currentmileage = 5500
     price_details = rental_service.return_car(booking_number.split(": ")[1], return_time, Currentmileage)
     print(price_details)
     """
     Output :
+    Booking number: 1
     Booking Number: 1
     Customer Name: Ravikant
     Rental Category: Compact
